@@ -6,7 +6,7 @@ from prince.fleet_advisor import (
     process_fleet,
     calculate_savings,
     calculate_carbon,
-     calculate_roi
+    calculate_roi
 )
 
 st.set_page_config(page_title="EVision AI")
@@ -22,6 +22,8 @@ df = process_fleet(df)
 df = calculate_savings(df)
 
 df = calculate_carbon(df)
+
+df = calculate_roi(df)
 
 col1, col2, col3 = st.columns(3)
 

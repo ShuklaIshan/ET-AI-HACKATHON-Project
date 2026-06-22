@@ -66,3 +66,14 @@ def calculate_carbon(df):
     )
 
     return df
+
+def calculate_roi(df):
+
+    ev_cost = 500000
+
+    df["Payback_Years"] = (
+        ev_cost /
+        df["Annual_Savings"]
+    )
+
+    return df
