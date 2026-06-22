@@ -49,6 +49,15 @@ if st.button("🚨 Simulate Defect"):
 
     summary = simulate_defect(selected_batch)
 
+    suppliers_df = pd.read_csv("data/suppliers.csv")
+
+    supplier_row = suppliers_df[
+        suppliers_df["supplier_id"] == summary["supplier"]
+    ]   
+
+    if len(supplier_row) > 0:
+        summary["supplier"] = supplier_row.iloc[0]["supplier_name"]
+
     # Alert Banner
     st.error(
         f"⚠ Manufacturing defect detected in batch {selected_batch}"

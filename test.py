@@ -1,5 +1,5 @@
-from modules.defect_engine import simulate_defect
+import pandas as pd
 
-result = simulate_defect("BAT023")
+df = pd.read_csv("data/suppliers.csv")
 
-print(result)
+print(df.head())
