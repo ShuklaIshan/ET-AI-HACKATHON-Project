@@ -1,11 +1,11 @@
 supplier_id,supplier_name,country,risk_score,status
-S001,Supplier_1,China,17,Healthy
-S002,Supplier_2,Japan,16,Healthy
-S003,Supplier_3,Germany,17,Healthy
-S004,Supplier_4,Korea,7,Healthy
-S005,Supplier_5,India,19,Healthy
-S006,Supplier_6,Germany,19,Healthy
-S007,Supplier_7,Germany,11,Healthy
-S008,Supplier_8,China,13,Healthy
-S009,Supplier_9,Germany,13,Healthy
-S010,Supplier_10,India,16,Healthy
+Contemporary Amperex Technology Co., Limited,Supplier_1,China,17,Healthy
+Panasonic Energy,Supplier_2,Japan,16,Healthy
+PowerCo SE,Supplier_3,Germany,17,Healthy
+LG Energy Solution,Supplier_4,Korea,7,Healthy
+Ola Cell Technologies,Supplier_5,India,19,Healthy
+Samsung SDI,Supplier_6,Korea,19,Healthy
+SK On,Supplier_7,Korea,11,Healthy
+BYD Company Ltd,Supplier_8,China,13,Healthy
+Automotive Cells Company),Supplier_9,Germany,13,Healthy
+Tata Agratas,Supplier_10,India,16,Healthy
