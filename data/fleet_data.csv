@@ -1,0 +1,6 @@
+Vehicle_ID,Vehicle_Type,Daily_Distance,Fuel_Efficiency,Fuel_Price,Maintenance_Cost,Age
+V001,Truck,120,8,95,25000,5
+V002,Van,70,15,95,15000,3
+V003,Forklift,40,10,95,12000,2
+V004,Truck,200,7,95,30000,6
+V005,Van,90,14,95,18000,4
