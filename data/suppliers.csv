@@ -1,0 +1,11 @@
+supplier_id,supplier_name,country,risk_score,status
+S001,Contemporary Amperex Technology Co. Limited,China,17,Healthy
+S002,Panasonic Energy,Japan,16,Healthy
+S003,PowerCo SE,Germany,17,Healthy
+S004,LG Energy Solution,Korea,7,Healthy
+S005,Ola Cell Technologies,India,19,Healthy
+S006,Samsung SDI,Korea,19,Healthy
+S007,SK On,Korea,11,Healthy
+S008,BYD Company Ltd,China,13,Healthy
+S009,Automotive Cells Company,Germany,13,Healthy
+S010,Tata Agratas,India,16,Healthy
